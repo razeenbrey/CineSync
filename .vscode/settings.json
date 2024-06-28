@@ -1,0 +1,23 @@
+
+    {
+        "workbench.colorCustomizations": {
+            "button.background": "#f51707",
+            "toolbar.hoverBackground": "#f51707",
+            "editor.background": "#222524",
+            "titleBar.activeBackground": "#094121",
+            "titleBar.inactiveBackground": "#094121",
+            "activityBar.background": "#0c5a2f99",
+            "activityBar.foreground": "#000000",
+            "activityBar.inactiveForeground": "#000000",
+            "titleBar.activeForeground": "#010101",
+            "titleBar.inactiveForeground": "#000000",
+            "statusBar.background": "#0c5a2f99"
+            
+            
+        },
+        "java.project.sourcePaths": ["src"],
+        "java.project.outputPath": "bin",
+        "java.project.referencedLibraries": [
+            "lib/**/*.jar"
+        ]
+    }
