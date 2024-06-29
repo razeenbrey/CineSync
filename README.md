@@ -1,5 +1,5 @@
 # CineSync
-A production management tool for film series.
+A production management tool for short film series using Maven.
 
 ## Origin
 _CineSync_...
