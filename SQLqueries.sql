@@ -18,7 +18,11 @@ CREATE TABLE Episodes(
   leadPresenter VARCHAR(15) NOT NULL,
   writer VARCHAR(15) NOT NULL,
   guests VARCHAR(30),
-  informationSheet VARBINARY(7340032) -- 7 MB (7 * 1024 * 1024 bytes)
-  productionSheet VARBINARY(7340032) -- 7 MB (7 * 1024 * 1024 bytes)
+  productionSheet LONGBLOB,
+  informationSheet LONGBLOB,
   PRIMARY KEY(eId)
 );
+
+-- old lines
+--  informationSheet VARBINARY(7340032) -- 7 MB (7 * 1024 * 1024 bytes)
+--  productionSheet VARBINARY(7340032) -- 7 MB (7 * 1024 * 1024 bytes)
